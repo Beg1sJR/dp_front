@@ -191,92 +191,6 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-
-      {/* Mobile App Section - UPDATED to dark theme */}
-      <div className=" ">
-        <div className="container mx-auto px-6">
-          <div className="flex flex-col md:flex-row items-center">
-            {/* Left text content */}
-            <div className="w-full md:w-1/2 pr-0 md:pr-8 mb-10 md:mb-0">
-              <h2 className="text-4xl font-bold mb-4 text-white">
-                Luminaris для iOS и Android
-              </h2>
-              <p className="text-xl text-gray-300 mb-8">
-                Будьте на связи с вашей системой безопасности. Организовывайте мониторинг. Успевайте больше.
-              </p>
-            </div>
-            
-            {/* Right mobile screens - UPDATED to position side by side */}
-            <div className="w-full md:w-1/2 flex justify-center">
-              <div className="flex justify-center items-center space-x-4">
-                {/* Android phone mockup */}
-                <div className="w-56 h-[480px] bg-black rounded-[24px] overflow-hidden shadow-xl border-4 border-gray-800">
-                  <div className="w-full h-full bg-gray-800 p-2">
-                    <div className="w-full h-full bg-gray-900 rounded-[18px] flex flex-col">
-                      <div className="h-12 flex items-center justify-between px-4">
-                        <div className="flex items-center">
-                          <div className="w-6 h-6 bg-emerald-500 rounded-full flex items-center justify-center mr-2">
-                            <svg className="w-4 h-4 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
-                            </svg>
-                          </div>
-                          <span className="text-white text-sm">Контакты</span>
-                        </div>
-                        <svg className="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                        </svg>
-                      </div>
-                      <div className="flex-1 bg-gray-100 p-3 flex flex-col space-y-2">
-                        <div className="flex justify-between">
-                          <div className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white">A</div>
-                          <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white">B</div>
-                          <div className="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white">C</div>
-                          <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white">D</div>
-                        </div>
-                        <div className="mt-4 bg-white rounded-lg p-3 shadow">
-                          <div className="text-xs font-medium text-gray-900">Уведомление</div>
-                          <p className="text-xs text-gray-600">Новое сообщение от системы безопасности</p>
-                        </div>
-                        <div className="bg-white rounded-lg p-3 shadow">
-                          <div className="text-xs font-medium text-gray-900">Информация</div>
-                          <p className="text-xs text-gray-600">Система работает стабильно</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                {/* iPhone mockup */}
-                <div className="w-[240px] h-[480px] bg-black rounded-[36px] border-4 border-gray-800 overflow-hidden shadow-xl">
-                  <div className="w-36 h-6 bg-black absolute top-0 left-1/2 transform -translate-x-1/2 rounded-b-xl z-10"></div>
-                  <div className="w-full h-full bg-emerald-600 p-2">
-                    <div className="w-full h-full bg-gray-800 rounded-[28px] flex flex-col">
-                      <div className="h-14 bg-gray-900 rounded-t-[28px] flex items-center px-4">
-                        <p className="text-white text-sm font-medium">Luminaris Security</p>
-                      </div>
-                      <div className="flex-1 bg-gray-100 p-2">
-                        <div className="w-full h-9 bg-white rounded-md mb-2 flex items-center px-2">
-                          <div className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></div>
-                          <p className="text-xs text-gray-900">Камера 1: Статус активный</p>
-                        </div>
-                        <div className="w-full h-9 bg-white rounded-md mb-2 flex items-center px-2">
-                          <div className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></div>
-                          <p className="text-xs text-gray-900">Камера 2: Статус активный</p>
-                        </div>
-                        <div className="w-full h-9 bg-white rounded-md mb-2 flex items-center px-2">
-                          <div className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></div>
-                          <p className="text-xs text-gray-900">Датчик движения: Норма</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     
       {/* Footer Section - UPDATED to dark theme */}
       <footer className="relative z-10 ">
@@ -327,8 +241,8 @@ export default function HomePage() {
               {/* Contact Info */}
               <div className="space-y-2 md:text-right">
                 <p className="text-sm"><strong>Email:</strong> info@luminaris.tech</p>
-                <p className="text-sm"><strong>Телефон:</strong> +7 (800) 123-45-67</p>
-                <p className="text-sm"><strong>Адрес:</strong> г. Москва, ул. Цифровая, д. 42</p>
+                <p className="text-sm"><strong>Телефон:</strong> +7 (700) 123-45-67</p>
+                <p className="text-sm"><strong>Адрес:</strong> г. Алматы, ул. Цифровая, д. 42</p>
               </div>
             </div>
           </div>
@@ -343,14 +257,14 @@ export default function HomePage() {
                   <svg className="w-5 h-5 mr-2 text-gray-400" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 0c-6.626 0-12 5.373-12 12 0 6.627 5.374 12 12 12 6.627 0 12-5.373 12-12 0-6.627-5.373-12-12-12zm1.272 18.15h-2.544v-7.2h2.544v7.2zm-1.272-8.7c-.738 0-1.35-.612-1.35-1.35s.612-1.35 1.35-1.35c.738 0 1.35.612 1.35 1.35s-.612 1.35-1.35 1.35zm7.022 8.7h-2.528v-3.9c0-2.1-2.508-1.944-2.508 0v3.9h-2.514v-7.2h2.514v1.218c1.05-1.95 5.036-2.094 5.036 1.866v4.116z"/>
                   </svg>
-                  <span className="text-sm text-gray-300">Русский (Россия)</span>
+                  <span className="text-sm text-gray-300">Русский </span>
                 </div>
                 
                 <div className="flex items-center">
                   <svg className="w-5 h-5 mr-1 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
                   </svg>
-                  <span className="text-sm text-gray-300">Ваши варианты выбора параметров конфиденциальности</span>
+                  {/* <span className="text-sm text-gray-300">Ваши варианты выбора параметров конфиденциальности</span> */}
                 </div>
               </div>
               
