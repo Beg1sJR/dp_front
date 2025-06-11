@@ -175,9 +175,7 @@ export default function HomePage() {
                 <p className="text-gray-300 mb-4">
                 Профессиональные отчёты за минуты.
                 Итоговая сводка логов, пояснения GPT, выявленные угрозы и рекомендации для SOC-аналитиков.                </p>
-                <button className="bg-blue-600 hover:bg-blue-500 text-white py-2 px-4 rounded">
-                  Найти сейчас
-                </button>
+
               </div>
             </div>
           </div>
