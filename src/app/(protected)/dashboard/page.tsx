@@ -327,8 +327,8 @@ function DashboardPage() {
             <span className=" w-6 h-6 bg-blue-500/20 rounded-full flex items-center justify-center mr-2">🕒</span>
             Последние события
           </h2>
-          <Link href="/logs" className="text-sm text-emerald-400 hover:text-emerald-300 transition-colors">
-            Все события →
+          <Link href="/threats" className="text-sm text-emerald-400 hover:text-emerald-300 transition-colors">
+          Все события →
           </Link>
         </div>
         

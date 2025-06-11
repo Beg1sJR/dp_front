@@ -9,7 +9,7 @@ import "@/styles/global.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "SecurityGPT",
+  title: "Luminaris",
   description: "AI-powered dashboard",
 }
 

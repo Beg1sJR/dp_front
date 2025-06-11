@@ -118,14 +118,11 @@ export default function HomePage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 text-white">
-                  Разработано для жизни — сегодня и в будущем
+                Прогнозирование будущих атак
                 </h3>
                 <p className="text-gray-300 mb-4">
-                  Следующее поколение защиты. Ваши цели. Ваши данные и ваша семья. С Luminaris вы станете еще ближе к тому, что успели полюбить.
-                </p>
-                <button className="bg-blue-600 hover:bg-blue-500 text-white py-2 px-4 rounded">
-                  Проверьте, готов ли ваш ПК
-                </button>
+                Будь на шаг впереди злоумышленников.
+                На основе последних логов система предсказывает возможные атаки, их вероятность и цель.                </p>
               </div>
             </div>
             
@@ -138,14 +135,11 @@ export default function HomePage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 text-white">
-                  Luminaris CloudVault
+                AI-анализ логов в реальном времени
                 </h3>
                 <p className="text-gray-300 mb-4">
-                  Сохраняйте свои файлы и фотографии в CloudVault — они будут доступны с любого устройства и где угодно.
+                Модель GPT анализирует логи, выявляет тип атаки, MITRE ID и выдает рекомендации в понятной форме.
                 </p>
-                <button className="bg-blue-600 hover:bg-blue-500 text-white py-2 px-4 rounded">
-                  Подробнее
-                </button>
               </div>
             </div>
             
@@ -158,14 +152,12 @@ export default function HomePage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 text-white">
-                  SecureNotes
-                </h3>
+                Интерактивная аналитика                </h3>
                 <p className="text-gray-300 mb-4">
-                  Приведите свои заметки и дела в порядок с шифрованием на уровне военных стандартов.
+                Подробная визуализация атак и угроз.
+                Всё, что тебе нужно — диаграммы по MITRE, странам, времени и типам атак. Видно всё.
                 </p>
-                <button className="bg-blue-600 hover:bg-blue-500 text-white py-2 px-4 rounded">
-                  Узнать больше
-                </button>
+
               </div>
             </div>
             
@@ -178,11 +170,11 @@ export default function HomePage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 text-white">
-                  Интеллектуальный поиск
+                AI-отчёты для руководства
                 </h3>
                 <p className="text-gray-300 mb-4">
-                  Поиск видео, картинок, карт, новостей и многого другого с защитой от отслеживания.
-                </p>
+                Профессиональные отчёты за минуты.
+                Итоговая сводка логов, пояснения GPT, выявленные угрозы и рекомендации для SOC-аналитиков.                </p>
                 <button className="bg-blue-600 hover:bg-blue-500 text-white py-2 px-4 rounded">
                   Найти сейчас
                 </button>
