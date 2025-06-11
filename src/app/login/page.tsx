@@ -153,9 +153,7 @@ export default function LoginPage() {
           </div>
         </div>
         
-        <div className="text-center mt-6 text-xs text-gray-500">
-          Luminaris Security System
-        </div>
+
       </div>
     </main>
   )

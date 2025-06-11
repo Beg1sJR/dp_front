@@ -227,9 +227,7 @@ function ForecastHistoryPage() {
         </div>
       )}
       
-      <div className="text-center text-xs text-gray-500 py-6 mt-4">
-        Luminaris Security System • Powered by AI 
-      </div>
+
     </main>
   )
 }

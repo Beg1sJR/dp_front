@@ -203,9 +203,7 @@ function FullLoginHistoryPage() {
         )}
       </div>
       
-      <div className="text-center text-xs text-gray-500 py-3">
-        Luminaris Security System • Powered by AI 
-      </div>
+
     </main>
   )
 }
